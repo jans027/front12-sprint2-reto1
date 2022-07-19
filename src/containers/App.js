@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NavBar from '../components/NavBar'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from '../components/Pagina1';
 import Pagina2 from '../components/Pagina2';
 import Pagina3 from '../components/Pagina3';
@@ -20,7 +20,7 @@ export default class App extends Component {
 
 
     return (
-      <Router>
+      <BrowserRouter>
         <div>
           <NavBar/>
             <Routes>
@@ -33,7 +33,7 @@ export default class App extends Component {
                 <Route path="/" element={<Index/>}/>
             </Routes>
         </div>
-      </Router>
+      </BrowserRouter>
 
     )
   }
