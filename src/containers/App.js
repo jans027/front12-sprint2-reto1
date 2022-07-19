@@ -8,6 +8,7 @@ import Pagina4 from '../components/Pagina4';
 import SignIn from '../components/SignIn';
 import SignUp from '../components/SignUp';
 import HomePage from '../components/HomePage';
+import Error404 from '../components/Error404';
 
 
 
@@ -24,7 +25,8 @@ export default class App extends Component {
         <div>
           <NavBar/>
             <Routes>
-                <Route path="/HomePage" element={<HomePage/>}/>
+                <Route path="/error404" element={<Error404/>}/>
+                <Route path="/homePage" element={<HomePage/>}/>
                 <Route path="/signUp" element={<SignUp/>}/>
                 <Route path="/signIn" element={<SignIn/>}/>
                 <Route path="/pagina4" element={<Pagina4/>}/>

@@ -63,7 +63,7 @@ export default class SignIn  extends Component {
                     }).then((result) => {
                         if (result.isConfirmed) {
                             // <Link to={`/SignUp`}></Link>
-                            window.location.href = "/HomePage";
+                            window.location.href = "/homePage";
                         } 
                     })
                 }else{
