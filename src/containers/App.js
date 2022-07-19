@@ -24,7 +24,7 @@ export default class App extends Component {
         <div>
           <NavBar/>
             <Routes>
-                <Route path="/homePage" element={<HomePage/>}/>
+                <Route path="/HomePage" element={<HomePage/>}/>
                 <Route path="/signUp" element={<SignUp/>}/>
                 <Route path="/signIn" element={<SignIn/>}/>
                 <Route path="/pagina4" element={<Pagina4/>}/>

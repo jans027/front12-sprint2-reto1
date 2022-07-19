@@ -62,8 +62,8 @@ export default class SignIn  extends Component {
                         icon: 'success'
                     }).then((result) => {
                         if (result.isConfirmed) {
-                            <Link to={`/SignUp`}></Link>
-                            // window.location.href = "/HomePage";
+                            // <Link to={`/SignUp`}></Link>
+                            window.location.href = "/HomePage";
                         } 
                     })
                 }else{
